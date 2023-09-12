@@ -1,0 +1,7 @@
+<div class="movies">
+    <div class="card" *ngFor="let movie of movies$ | async">
+        <h1>{{movie.movieName}}</h1>
+        <h2>{{movie.movieDetails}} </h2>
+        <h3>{{movie.movieEarning}} </h3>
+    </div>
+</div>
